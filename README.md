@@ -1,7 +1,7 @@
-This project has 7 files total.
+This project has 8 files total.
 
-JavaScript (2):			php (3):			css(2):
-confirm.js ------------------>	index.php  <---------------- style.css
+JavaScript (2):			php (3):			css(2):			database(1):
+confirm.js ------------------>	index.php  <---------------- style.css			course.sql
 congrats.js _ _ _ _ _/		slotChange.php  <----------- style.css
 				checkRegistered.php <------- checkRegistered.css
 
