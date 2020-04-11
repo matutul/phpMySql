@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.registration{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration form{
+    padding: 50px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px gray;
+}
+form h3{
+    font-size: 25px;
+}
+.just{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+.just input{
+    padding: 3px 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 60%;
+    font-size: 17px;
+}
+.just input:focus{
+    outline: none;
+}
+.just input:active{
+    box-shadow: 1px 1px 4px gray;
+}
+@media only screen and (max-width: 370px){
+    .just{
+        justify-content: start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .just input{
+        margin-top: 5px;
+    }
+}
+
+.slottime{
+    display: block;
+    width: 100%;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.slottime:focus{
+    outline: none;
+}
+.slottime:active{
+    box-shadow: 1px 1px 4px gray;
+}
+input[type="submit"]{
+    padding: 4px 30px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: rgb(246, 80, 50);
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(255, 90, 61);
+}
+input[type="submit"]:focus{
+    outline: none;
+}
+input[type="submit"]:active{
+    box-shadow: 1px 1px 4px gray;
+}
+
+/* HEL0P BUTTON */
+.help{
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+}
+.help i{
+    font-size: 40px;
+    color: rgb(161, 161, 161);
+    transition: .4s;
+}
+.help i:hover{
+    color: tomato;
+    transform: scale(1.2, 1.2);
+}
